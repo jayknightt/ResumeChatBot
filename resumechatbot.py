@@ -19,7 +19,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import ElasticVectorSearch, Pinecone, Weaviate, FAISS
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "INSERT API KEY HERE"
 
 from google.colab import files
 import io
